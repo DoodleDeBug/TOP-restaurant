@@ -6,19 +6,23 @@
 
 /* general */
 
-body {
-  background-color: aqua;
-}
-
 section {
   background-color: palevioletred;
   margin-bottom: 1rem;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 h1,
 h2 {
   text-align: center;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 /* navbar */
@@ -35,7 +39,43 @@ nav li {
 
 /* hero */
 
+#home {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
 /* menu */
+
+.menu-section {
+  background-color: royalblue;
+  margin: 1rem auto;
+  max-width: 800px;
+  padding: 1rem 2rem;
+}
+
+.menu-section h4 {
+  display: inline;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.menu-section li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 0 2rem;
+}
+
+.menu-section li div {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* gallery */
 .gallery-container {
@@ -47,7 +87,7 @@ nav li {
 }
 
 #gallery .image {
-  background-color: powderblue;
+  background-color: white;
 }
 
 #image1 {
@@ -78,5 +118,6 @@ nav li {
 /* footer*/
 
 footer span {
+  display: block;
   text-align: center;
 }
