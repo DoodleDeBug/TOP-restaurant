@@ -7,7 +7,6 @@
 /* general */
 
 section {
-  background-color: palevioletred;
   margin-bottom: 1rem;
   padding: 2rem;
   display: flex;
@@ -36,6 +35,9 @@ nav li {
 
 #home {
   text-align: center;
+  background-image: url(./../assets/fish);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
