@@ -2,22 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 /* general */
 
 section {
-  margin-bottom: 1rem;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
 }
-
-/* h2 {
-  font-size: 30px;
-} */
 
 /* navbar */
 nav {
@@ -32,7 +29,6 @@ nav li {
 }
 
 /* home */
-
 #home {
   text-align: center;
   background-image: url(./../assets/fish);
@@ -45,10 +41,8 @@ h1 {
   font-size: 50px;
 }
 
-img {
-  height: 50px;
-  background-color: white;
-  width: 50px;
+#home span {
+  font-size: 25px;
 }
 
 /* menu */
@@ -120,8 +114,9 @@ img {
 /* contact */
 
 /* footer*/
-
 footer span {
   display: block;
   text-align: center;
+  background-color: pink;
+  padding: 1rem 0;
 }
