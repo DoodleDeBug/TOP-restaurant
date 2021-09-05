@@ -7,8 +7,12 @@ function pageLoad() {
   const copy = document.createElement("p");
   copy.innerText = "Fresh, Delicious, Awesome Food";
 
-  content.appendChild(headline);
-  content.appendChild(copy);
+  const container = document.createElement("div");
+  container.classList.add("container");
+  container.appendChild(headline);
+  container.appendChild(copy);
+
+  content.appendChild(container);
 }
 
 export default pageLoad;
