@@ -7,33 +7,43 @@
 }
 
 /* navbar */
-/* nav {
-  background-color: blueviolet;
+nav {
   padding: 1rem 2rem;
-  text-align: end;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 nav li {
   display: inline;
   list-style: none;
-} */
+  margin: 0 1rem;
+  cursor: pointer;
+  font-size: 22px;
+  border: solid 1px black;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+}
 
-/* home */
-#content {
-  padding: 2rem 15%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  text-align: center;
+body {
   background-image: url(./../assets/fish);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 2rem 15%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* home */
+#content {
+  padding: 2rem 3rem;
+  background-color: white;
+  align-self: flex-end;
 }
 
 .container {
   align-self: flex-end;
-  background-color: white;
+  background-color: pink;
   padding: 1rem 2rem;
 }
 
@@ -43,7 +53,7 @@ h1 {
 }
 
 #content p {
-  font-size: 25px;
+  font-size: 22px;
   text-align: left;
 }
 

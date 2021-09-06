@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageLoad */ \"./src/pageLoad.js\");\n// import \"./style.css\";\n\n\n(0,_pageLoad__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n\n//# sourceURL=webpack://top-restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageLoad */ \"./src/pageLoad.js\");\n\n\n(0,_pageLoad__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n\n//# sourceURL=webpack://top-restaurant/./src/index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pag
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction pageLoad() {\n  const content = document.getElementById(\"content\");\n\n  const headline = document.createElement(\"h1\");\n  headline.innerText = \"My Awesome Restaurant\";\n\n  const copy = document.createElement(\"p\");\n  copy.innerText = \"Fresh, Delicious, Awesome Food\";\n\n  const container = document.createElement(\"div\");\n  container.classList.add(\"container\");\n  container.appendChild(headline);\n  container.appendChild(copy);\n\n  content.appendChild(container);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pageLoad);\n\n\n//# sourceURL=webpack://top-restaurant/./src/pageLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction pageLoad() {\n  const content = document.getElementById(\"content\");\n\n  const headline = document.createElement(\"h1\");\n  headline.innerText = \"My Awesome Restaurant\";\n\n  const copy = document.createElement(\"p\");\n  copy.innerText = \"Fresh, Delicious, Awesome Food\";\n\n  const container = document.createElement(\"div\");\n  container.classList.add(\"container\");\n  container.appendChild(headline);\n  container.appendChild(copy);\n\n  const nav = document.createElement(\"nav\");\n  nav.classList.add(\"navbar\");\n\n  const ul = document.createElement(\"ul\");\n  nav.appendChild(ul);\n\n  let navbtns = [\"Home\", \"Menu\", \"Contact\"];\n\n  navbtns.forEach((btn) => {\n    const li = document.createElement(\"li\");\n    li.innerText = btn;\n    li.id = btn.toLowerCase();\n    ul.appendChild(li);\n  });\n\n  content.appendChild(container);\n  content.appendChild(nav);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pageLoad);\n\n\n//# sourceURL=webpack://top-restaurant/./src/pageLoad.js?");
 
 /***/ })
 

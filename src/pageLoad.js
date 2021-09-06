@@ -12,7 +12,23 @@ function pageLoad() {
   container.appendChild(headline);
   container.appendChild(copy);
 
+  const nav = document.createElement("nav");
+  nav.classList.add("navbar");
+
+  const ul = document.createElement("ul");
+  nav.appendChild(ul);
+
+  let navbtns = ["Home", "Menu", "Contact"];
+
+  navbtns.forEach((btn) => {
+    const li = document.createElement("li");
+    li.innerText = btn;
+    li.id = btn.toLowerCase();
+    ul.appendChild(li);
+  });
+
   content.appendChild(container);
+  content.appendChild(nav);
 }
 
 export default pageLoad;
