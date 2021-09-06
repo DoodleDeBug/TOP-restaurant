@@ -24,21 +24,23 @@ nav li {
   border-radius: 2px;
 }
 
-body {
+html {
   background-image: url(./../assets/fish);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2rem 15%;
   display: flex;
   flex-direction: column;
-  position: sticky;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
 }
 
 /* home */
 #content {
   padding: 2rem 3rem;
   background-color: white;
-  align-self: flex-end;
+  max-width: 1000px;
 }
 
 .container {
