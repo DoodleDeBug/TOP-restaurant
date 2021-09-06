@@ -65,37 +65,37 @@ h1 {
 
 h2 {
   font-size: 25px;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 /* menu */
 
-/* .menu-section {
-  background-color: royalblue;
-  margin: 1rem auto;
-  max-width: 800px;
-  padding: 1rem 2rem;
+.menu-section {
+  border: solid 3px black;
 }
 
-.menu-section h4 {
-  display: inline;
+.menu-section h3 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
 }
 
-.price {
+.menu-section-content {
+  margin: 0.5rem;
+}
+
+/* .price {
   font-weight: bold;
-}
+} */
 
-.menu-section li {
+/* .menu-section-content li {
   list-style: none;
-  display: flex;
-  flex-direction: column;
   margin-top: 1rem;
   padding: 0 2rem;
 }
-
-.menu-section li div {
-  display: flex;
-  justify-content: space-between;
-} */
+ */
 
 /* gallery */
 /* .gallery-container {
