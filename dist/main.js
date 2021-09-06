@@ -10,13 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction homepage() {\n  const content = document.getElementById(\"content\");\n\n  const section = document.createElement(\"div\");\n\n  const title = document.createElement(\"h2\");\n  title.innerText = \"About Us\";\n\n  const p = document.createElement(\"p\");\n  p.innerText =\n    \"We are a resaurant specialising in seafood. We love fish. Come to our resaurant, it's very cool.\";\n\n  section.appendChild(title);\n  section.appendChild(p);\n\n  content.appendChild(section);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homepage);\n\n\n//# sourceURL=webpack://top-restaurant/./src/home.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageLoad */ \"./src/pageLoad.js\");\n\n\n(0,_pageLoad__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n\n//# sourceURL=webpack://top-restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageLoad */ \"./src/pageLoad.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\n\n\n(0,_pageLoad__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n\n//# sourceURL=webpack://top-restaurant/./src/index.js?");
 
 /***/ }),
 
