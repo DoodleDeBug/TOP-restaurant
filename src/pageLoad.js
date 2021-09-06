@@ -18,7 +18,7 @@ function pageLoad() {
   const ul = document.createElement("ul");
   nav.appendChild(ul);
 
-  let navbtns = ["Home", "Menu", "Contact"];
+  let navbtns = ["Home", "Menu", "Gallery", "Contact"];
 
   navbtns.forEach((btn) => {
     const li = document.createElement("li");

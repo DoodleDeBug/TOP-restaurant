@@ -1,7 +1,8 @@
-function homepage() {
+function home() {
   const content = document.getElementById("content");
 
   const section = document.createElement("div");
+  section.classList.add("section");
 
   const title = document.createElement("h2");
   title.innerText = "About Us";
@@ -16,4 +17,4 @@ function homepage() {
   content.appendChild(section);
 }
 
-export default homepage;
+export default home;
