@@ -8,6 +8,8 @@ pageLoad();
 
 //navbar activation
 (function () {
+  const content = document.querySelector("#content");
+
   const homebtn = document.getElementById("home");
   const menubtn = document.getElementById("menu");
   const gallerybtn = document.getElementById("gallery");
@@ -18,7 +20,11 @@ pageLoad();
   btns.forEach((btn) => {
     let name = btn.id;
     btn.addEventListener("click", () => {
-      console.log(`clicked btn ${name}`);
+      if (document.querySelector(".section") != null) {
+        const section = document.querySelector(".section");
+        content.removeChild(section);
+      }
+
       switch (name) {
         case "home":
           home();
