@@ -25,7 +25,7 @@ nav li {
 }
 
 html {
-  background-image: url(./../assets/fish);
+  background-image: url(./../assets/fish.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2rem 15%;
@@ -38,19 +38,19 @@ html {
 
 /* home */
 #content {
-  padding: 2rem 3rem;
+  padding: 1rem;
   background-color: white;
   max-width: 1000px;
 }
 
 .container {
-  background-color: pink;
   padding: 1rem 2rem;
 }
 
 h1 {
   text-align: left;
   font-size: 50px;
+  color: salmon;
 }
 
 .container p {
@@ -73,7 +73,7 @@ h2 {
 
 .menu-section {
   border: solid 3px black;
-  max-width: 400px;
+  max-width: 320px;
   margin: 1rem auto 0;
 }
 
@@ -95,19 +95,23 @@ h2 {
 }
 
 /* gallery */
-/* .gallery-container {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 300px);
+
+.gallery-container {
   margin-top: 1rem;
-}
-
-#gallery .image {
+  padding: 1rem;
   background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
-#image1 {
+.image {
+  height: 300px;
+}
+
+/* #image1 {
   grid-column: 1/2;
   grid-row: 1/3;
 }

@@ -16,10 +16,10 @@ function menu() {
     "Calamari Plate": "£8.00",
   };
 
-  let salads = {
-    "Crab Salad": "£9.00",
-    "Green Salad": "£3.00",
-  };
+  // let salads = {
+  //   "Crab Salad": "£9.00",
+  //   "Green Salad": "£3.00",
+  // };
 
   let drinks = {
     "Soft Drink": "£2.00",
@@ -34,7 +34,7 @@ function menu() {
 
   let menuSectionsTitles = {
     Mains: mains,
-    Salads: salads,
+    // Salads: salads,
     Drinks: drinks,
     Desserts: desserts,
   };
