@@ -22,11 +22,15 @@ function gallery() {
   section.appendChild(galleryContainer);
 
   images.forEach((img) => {
-    const imgContainer = document.createElement("img");
-    imgContainer.classList.add("image");
-    imgContainer.src = img;
+    const imgContainer = document.createElement("div");
+    imgContainer.classList.add("imgContainer");
+
+    const image = document.createElement("img");
+    image.classList.add("image");
+    image.src = img;
 
     galleryContainer.appendChild(imgContainer);
+    imgContainer.appendChild(image);
   });
 }
 
