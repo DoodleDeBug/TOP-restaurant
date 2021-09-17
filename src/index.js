@@ -3,6 +3,7 @@ import home from "./home";
 import gallery from "./gallery";
 import menu from "./menu";
 import contact from "./contact";
+import css from "./style.css";
 
 pageLoad();
 
